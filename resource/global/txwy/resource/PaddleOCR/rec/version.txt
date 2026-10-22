@@ -1,2 +1,8 @@
- 
-[2023/06/12 23:02:10] ppocr INFO: best metric, acc: 0.9896146143669632, is_float16: False, norm_edit_dis: 0.997606862815795, fps: 5110.7775591388545, best_epoch: 145
+PP-OCRv6_small_rec; official pretrained; not fine-tuned
+Source: https://github.com/PaddlePaddle/PaddleOCR/tree/b03f46425e8ff4442b268ce449e3eef758146cd4
+Source checkpoint SHA-256: 25c9bd54b0e5900916e8bb6ada938abeffb1eac1baedac0ca54a45b1c9310825
+ONNX SHA-256: ecb37ec857e2da4d991a7f8b6c9f014d64322982a626c5c608e8e899f4042cae
+Dictionary SHA-256: b5f2bfe2bdd9448429e3e82b51c789775d9b42f2403d082b00662eb77e401c5d
+Export: Paddle 3.4.0; Paddle2ONNX 2.1.0; opset 17; PIR attribute repair.
+Training and model-selection evidence: https://github.com/MaaAssistantArknights/MaaAI/pull/15
+Corresponding-client real-image acceptance remains pending.
