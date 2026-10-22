@@ -1,2 +1,8 @@
- 
-ppocr INFO: best metric, acc: 0.9874715822409134, is_float16: False, norm_edit_dis: 0.9969659154565832, fps: 5292.563171688365, best_epoch: 150
+korean_PP-OCRv5_mobile_rec; official pretrained; not fine-tuned
+Source: https://github.com/PaddlePaddle/PaddleOCR/tree/b03f46425e8ff4442b268ce449e3eef758146cd4
+Source checkpoint SHA-256: 8975dede5e0c2f47e0a7712b3d79ffdc766972f872fd0441ebcccd9d77cd52a3
+ONNX SHA-256: 6853a1c0da58d09ac854d930c319a2601ab64741ac2a5be7618c5a93fc157f78
+Dictionary SHA-256: a88071c68c01707489baa79ebe0405b7beb5cca229f4fc94cc3ef992328802d7
+Export: Paddle 3.4.0; Paddle2ONNX 2.1.0; opset 17; PIR attribute repair.
+Training and model-selection evidence: https://github.com/MaaAssistantArknights/MaaAI/pull/15
+Corresponding-client real-image acceptance remains pending.
